@@ -1,0 +1,8 @@
+{
+    "axiome":"G",
+    "rules":{
+        "F":"FF",
+        "G":"F[G]G"
+    },
+    "angle": 25
+}
