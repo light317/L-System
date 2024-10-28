@@ -11,7 +11,7 @@ class LSystem:
         self.init_position = init_position
         self.current_position = init_position
         self.stack = []
-        self.length = 50
+        self.length = 20
         self.ratio = ratio
 
     def __str__(self):

@@ -18,14 +18,14 @@ def get_system_params(filename):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("screen_width",nargs='?',type=int, default=1000)
-    parser.add_argument("screen_height",nargs='?',type=int,default=600)
-    parser.add_argument("start_x",nargs='?',type=int, default=500)
+    parser.add_argument("screen_width",nargs='?',type=int, default=1200)
+    parser.add_argument("screen_height",nargs='?',type=int,default=700)
+    parser.add_argument("start_x",nargs='?',type=int, default=600)
     parser.add_argument("start_y",nargs='?',type=int, default=600)
     parser.add_argument("intial_drawing_angle",nargs='?',type=int, default=90)
     parser.add_argument("ratio",nargs='?',type=float, default=0.7)
 
-    parser.add_argument("system_param",nargs='?',type=str,default="fractal_plant.json")
+    parser.add_argument("system_param",nargs='?',type=str,default="test_tree.json")
 
     args = parser.parse_args()
 
